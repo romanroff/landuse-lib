@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "land_use_lib"
+version = "0.1.0"
+description = "A library for land use classification and spatial analysis"
+authors = [
+    { name="Roman Bashirov", email="your_email@example.com" }
+]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.12,<4.0"
+
+dependencies = [
+    "pandas",
+    "geopandas",
+    "scikit-learn",
+    "xgboost",
+    "lightgbm",
+    "catboost",
+    "matplotlib",
+    "imbalanced-learn",
+    "libpysal"
+]
+
+[project.urls]
+Homepage = "https://github.com/romanroff/land_use_lib"
+Repository = "https://github.com/romanroff/land_use_lib"
